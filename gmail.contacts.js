@@ -8,7 +8,7 @@
             	var self = this;
             	
             	// Create the contacts service object
-            	var contactsService = new google.gdata.contacts.ContactsService('CartolaFC-2010');
+            	var contactsService = new google.gdata.contacts.ContactsService('your-application');
             	
                 $("#gmail-contacts").click(function() {
                         self.logIn();
